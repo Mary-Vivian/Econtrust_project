@@ -1,0 +1,19 @@
+.nav {
+   color:#006261;
+ display: flex;
+justify-content: flex-end;
+ gap: 3%;
+ font-size: larger;
+ padding-right: 15%;
+
+
+  }
+  li{
+   display: flex;
+   text-decoration: none;
+  }
+  
+  
+  
+ 
+  
