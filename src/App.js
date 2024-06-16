@@ -1,4 +1,5 @@
 
+import Landingpage from "./Landing Page"
 import Navbar from "./Navbar";
 import About from "./About/about";
 function App(){
@@ -7,7 +8,9 @@ function App(){
       <Navbar/>
       <About/>
       
+      <Landingpage/>
     </div>
   )
 }
 export default App;
+
