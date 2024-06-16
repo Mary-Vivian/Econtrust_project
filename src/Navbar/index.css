@@ -1,5 +1,5 @@
-.nav {
-   color:#006261;
+/* .nav {
+   color:#edf4f3;
  display: flex;
 justify-content: flex-end;
  gap: 3%;
@@ -11,6 +11,10 @@ justify-content: flex-end;
   li{
    display: flex;
    text-decoration: none;
+  } */
+
+  .navbar{
+    background-color:  #006D5B;
   }
   
   
