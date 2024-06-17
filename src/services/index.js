@@ -3,7 +3,7 @@ import "./index.css";
 const Services = () => {
   return (
     <>
-    <h3 className="intro">Services</h3>
+    <h3 className="intro">SERVICES</h3>
       <div className="services">
         
         <div className="savings">
