@@ -1,0 +1,98 @@
+ 
+ /* .navbar {
+    color:#006261;
+  display: flex;
+ justify-content: flex-end;
+  gap: 3%;
+  font-size: larger;
+  padding-right: 15%;
+ 
+ 
+   }
+   li{
+    display: flex;
+    text-decoration: none;
+   } */
+   .learnmore{
+    color:#023a31 ;
+    border: solid 2px;
+    border-radius: 30px;
+    margin-left: 50px;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: sans-serif;
+
+  
+    
+   }
+   /* body{
+    background-color: #006D5B;
+   } */
+   .h1{
+    color: white;
+    margin-left: 20px;
+    font-size: 60px;
+   }
+   .landing{
+    background-color: #026857;
+  
+   }
+   .navbar{
+    display: flex;
+
+   }
+   .nav {
+    color:#edf4f3;
+   display: flex;
+   justify-content: flex-end;
+   gap: 50px;
+   font-size: 18px;
+   padding-top: 5px;
+
+  
+ 
+   }
+   li{
+
+    text-decoration: none;
+   }
+  
+   .p{
+    color: white;
+    font-size: 30px;
+    margin-left: 20px;
+   }
+  #navbar{
+    display: flex;
+    gap: 64%;
+  }
+  #logo{
+    width: 80px;
+   
+  }
+  #playstore{
+    width: 200px;
+    margin-left: 50px;
+
+  }
+  #first{
+    display: flex;
+    margin-left: 50px;
+    gap: 20%;
+  }
+  #chama{
+    border-radius: 20px;
+
+  }
+
+
+ 
+   /* #playstore{
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+
+   }    */
