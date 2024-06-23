@@ -1,11 +1,9 @@
 
-import Landingpage from "./Landing Page"
-import Navbar from "./Navbar";
+import Homepage from "./Landing Page"
 function App(){
   return(
     <div>
-      <Navbar/>
-      <Landingpage/>
+      <Homepage/>
     </div>
   )
 }

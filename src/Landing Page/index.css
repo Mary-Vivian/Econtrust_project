@@ -1,98 +1,89 @@
- 
- /* .navbar {
-    color:#006261;
+body{
+  background-color:#026857 ;
+}
+.Text{
   display: flex;
- justify-content: flex-end;
-  gap: 3%;
-  font-size: larger;
-  padding-right: 15%;
- 
- 
-   }
-   li{
-    display: flex;
-    text-decoration: none;
-   } */
-   .learnmore{
-    color:#023a31 ;
-    border: solid 2px;
-    border-radius: 30px;
-    margin-left: 50px;
-    font-size: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-family: sans-serif;
-
-  
-    
-   }
-   /* body{
-    background-color: #006D5B;
-   } */
-   .h1{
-    color: white;
-    margin-left: 20px;
-    font-size: 60px;
-   }
-   .landing{
-    background-color: #026857;
-  
-   }
-   .navbar{
-    display: flex;
-
-   }
-   .nav {
-    color:#edf4f3;
-   display: flex;
-   justify-content: flex-end;
-   gap: 50px;
-   font-size: 18px;
-   padding-top: 5px;
-
-  
- 
-   }
-   li{
-
-    text-decoration: none;
-   }
-  
-   .p{
-    color: white;
-    font-size: 30px;
-    margin-left: 20px;
-   }
-  #navbar{
-    display: flex;
-    gap: 64%;
+  gap: 10%;
+  color: white;
+}
+  #learnmore{
+    border-radius: 60px;
+  }
+  #icons{
+    width: 340px;
   }
   #logo{
-    width: 80px;
-   
+    width: 100px;
   }
-  #playstore{
-    width: 200px;
-    margin-left: 50px;
+  .navbar-container{
+    display: flex;
+    list-style-type: none;
+    gap: 60px;
+  }
+
+  .navbar-container a{
+    color: rgb(244, 241, 241);
+    text-decoration: none;
 
   }
-  #first{
+  .navbar-container li{
+    margin-left: 20px;
+  }
+  .navbar-container a:hover{
+    color: #021668;
+  }
+  
+  .hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+  }
+
+  .hamburger span{
+    width: 25px;
+    height: 3px;
+    background-color: aliceblue;
+    margin: 2px 0;
+    transition: all 0.3 ease;
+  }
+
+
+  @media screen and (max-width: 768px){
+    .navbar{
+      flex-direction: column;
+      align-items:flex-start;
+    }
+
+  
+  .navbar-container{
+    display: none;
+    flex-direction: column;
+    width: 100%;
+  }
+  .navbar-container.active{
     display: flex;
-    margin-left: 50px;
-    gap: 20%;
+  }
+    
+  .navbar-container li{
+    margin: 10px 0px;
+  }
+  .hamburger{
+    display: flex;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+
+  .navbar-container{
+    flex-direction: column;
+    text-align: center;
   }
   #chama{
-    border-radius: 20px;
-
+    width: 200px;
+    height: 200px;
   }
+  #learnmore{
+    border-radius: 90px;
+  }
+}
 
-
- 
-   /* #playstore{
-    width: 30px;
-    height: 30px;
-    margin-left: 20px;
-
-   }    */
