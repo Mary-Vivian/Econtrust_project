@@ -55,11 +55,11 @@ body{
     }
 
   
-  .navbar-container{
+  /* .navbar-container{
     display: none;
     flex-direction: column;
     width: 100%;
-  }
+  } */
   .navbar-container.active{
     display: flex;
   }
@@ -74,10 +74,26 @@ body{
     right: 20px;
   }
 
-  .navbar-container{
+  .navbar-container {
+    position: absolute;
+    top: 4.5rem;
+    left: 0;
+    background: #66226E;
+    z-index: 1;
+    width: 200px;
+    opacity:5px;
+   }
+   .navbar-container a {
+    color: #fff;
+    padding: 1rem 1.5rem;
+    display: block;
+    font-size: 15px;
+   }
+
+  /* .navbar-container{
     flex-direction: column;
     text-align: center;
-  }
+  } */
   #chama{
     width: 200px;
     height: 200px;
