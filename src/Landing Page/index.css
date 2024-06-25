@@ -48,7 +48,7 @@ body{
   }
 
 
-  @media screen and (max-width: 768px){
+  @media screen and (max-width: 375px){
     .navbar{
       flex-direction: column;
       align-items:flex-start;
@@ -75,13 +75,18 @@ body{
   }
 
   .navbar-container {
-    position: absolute;
+    position: fixed;
     top: 4.5rem;
     left: 0;
-    background: #66226E;
+    background: #0f0110;
     z-index: 1;
-    width: 200px;
+    width: 900px;
+    height: 600px;
     opacity:5px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: none;
    }
    .navbar-container a {
     color: #fff;
@@ -101,5 +106,126 @@ body{
   #learnmore{
     border-radius: 90px;
   }
+}
+
+
+@media screen and (max-width: 768px){
+  .navbar{
+    flex-direction: column;
+    align-items:flex-start;
+  }
+
+
+/* .navbar-container{
+  display: none;
+  flex-direction: column;
+  width: 100%;
+} */
+.navbar-container.active{
+  display: flex;
+}
+  
+.navbar-container li{
+  margin: 10px 0px;
+}
+.hamburger{
+  display: flex;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.navbar-container {
+  position: fixed;
+  top: 4.5rem;
+  left: 0;
+  background: #0f0110;
+  z-index: 1;
+  width: 900px;
+  height: 600px;
+  opacity:5px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  display: none;
+ }
+ .navbar-container a {
+  color: #fff;
+  padding: 1rem 1.5rem;
+  display: block;
+  font-size: 15px;
+ }
+
+/* .navbar-container{
+  flex-direction: column;
+  text-align: center;
+} */
+#chama{
+  width: 200px;
+  height: 200px;
+}
+#learnmore{
+  border-radius: 90px;
+}
+}
+
+@media screen and (max-width: 1000px){
+  .navbar{
+    flex-direction: column;
+    align-items:flex-start;
+  }
+
+
+/* .navbar-container{
+  display: none;
+  flex-direction: column;
+  width: 100%;
+} */
+.navbar-container.active{
+  display: flex;
+}
+  
+.navbar-container li{
+  margin: 10px 0px;
+}
+.hamburger{
+  display: flex;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.navbar-container {
+  position: fixed;
+  top: 4.5rem;
+  left: 0;
+  background: #0f0110;
+  z-index: 1;
+  width: 900px;
+  height: 600px;
+  opacity:5px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  display: none;
+ }
+ .navbar-container a {
+  color: #fff;
+  padding: 1rem 1.5rem;
+  display: block;
+  font-size: 15px;
+ }
+
+/* .navbar-container{
+  flex-direction: column;
+  text-align: center;
+} */
+#chama{
+  width: 200px;
+  height: 200px;
+}
+#learnmore{
+  border-radius: 90px;
+}
 }
 

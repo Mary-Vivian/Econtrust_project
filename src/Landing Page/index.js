@@ -60,41 +60,45 @@ function Homepage() {
     setIsMenuOpen(!isMenuOpen);
   };
   return (
-    <div>
-      <div className="navbar">
-        <div className="nav">
-          <img src="/Image/logo2.png" alt="Logo" id='logo'/>
-        </div>
-        <div className={`hamburger ${isMenuOpen ? 'active' : ''}`} onClick={toggleMenu}>
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-        <ul className={`navbar-container ${isMenuOpen ? 'active' : ''}`}>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About Us</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Team</a></li>
-          <li><a href="#">Contact Us</a></li>
-        </ul>
+    <>
+    <div className='main-wrapper'>
+    <div className="navbar">
+      <div className="nav">
+        <img src="/Image/logo2.png" alt="Logo" id='logo'/>
       </div>
-      <div className='Text'>
-      
-       <div>
-       <h1>Let some elegance</h1><br></br><h1>Into your finance</h1>
-       <p className='paragraph'>
-        Simplify your financial journey with us
-        Join us today and experience hassle free saving
-        </p>
+      <div className={`hamburger ${isMenuOpen ? 'active' : ''}`} onClick={toggleMenu}>
+        <span></span>
+        <span></span>
+        <span></span>
       </div>
-      <img src="/Image/Chamas.jpeg" alt="Chama" id='chama'/>
-
+      <ul className={`navbar-container ${isMenuOpen ? 'active' : ''}`}>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Team</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
     </div>
-    <button id='learnmore'>learnmore</button>
-    <br></br>
-    <img src="/Image/iconss.png" alt="icons" id='icons'/>
-
+    <div className='Text'>
+    
+     <div>
+     <h1>Let some elegance</h1><br></br><h1>Into your finance</h1>
+     <p className='paragraph'>
+      Simplify your financial journey with us
+      Join us today and experience hassle free saving
+      </p>
     </div>
+    <img src="/Image/Chamas.jpeg" alt="Chama" id='chama'/>
+
+  </div>
+  <button id='learnmore'>learnmore</button>
+  <br></br>
+  <img src="/Image/iconss.png" alt="icons" id='icons'/>
+
+  </div>
+    
+    </>
+    
     
   );
 
