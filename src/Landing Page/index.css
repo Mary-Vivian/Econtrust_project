@@ -542,7 +542,7 @@ body {
     justify-content: space-between;
     align-items: center;
     /* padding: 1rem; */
-    width: 90%;
+    width: 100%;
     background-color: #026857;
   }
   .container{
@@ -550,7 +550,7 @@ body {
   }
   .nav {
     display: flex;
-    width: 90%;
+    width: 100%;
     align-items: center;
   }
 
@@ -600,7 +600,7 @@ body {
   }
   #chama {
     object-fit:cover;
-    width: 100%;
+    width: 110%;
     margin-left: 1%;
     margin-top: 1%;
     
@@ -608,10 +608,10 @@ body {
 
   #learnmore {
     font-size: 1.1rem;
-    margin-left: 3%;
+    margin-left: 4%;
   }
   .icons{
-    margin-left: -5%;
+    margin-left: -4.9%;
   }
 }
 @media screen and (min-width: 1251px) and (max-width:1500px){
