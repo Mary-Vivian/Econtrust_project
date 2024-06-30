@@ -9,7 +9,7 @@ function Homepage() {
   };
 
   return (
-    <div>
+    <div className='container'>
       <div className="navbar">
         <div className="nav">
           <img src="/Image/logo2.png" alt="Logo" id="logo" />
@@ -30,16 +30,16 @@ function Homepage() {
       </div>
       <div className="Text">
         <div>
-          <h1 id='paragraph'>Let some elegance</h1>
-          <br />
-          <h1 id='paragraph'>Into your finance</h1>
+          <p id='paragraph'>Let some elegance<br/>Into your finance</p>
           <p className="paragraph">
             Simplify your financial journey with us
+            <br/>
+            <br/>
             Join us today and experience hassle free saving
           </p>
         </div>
         <div>
-        <img src="/Image/Chamas.jpeg" alt="Chama" id='chama' />
+        <img src="/Image/WOMEN-CHAMA.jpg" alt="Chama" id='chama' />
       </div>
       </div>
       <button id="learnmore"><b>Learn more</b></button>
