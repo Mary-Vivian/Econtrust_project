@@ -22,7 +22,7 @@ function Homepage() {
         </div>
         <ul className={`navbar-container ${isMenuOpen ? 'active' : ''}`}>
           <li><a href="#"><b>Home</b></a></li>
-          <li><a href="#"> <b>About Us</b></a></li>
+          <li><a href="#">About Us</a></li>
           <li><a href="#"><b>Services</b></a></li>
           <li><a href="#"><b>Team</b></a></li>
           <li><a href="#"><b>Contact Us</b></a></li>
