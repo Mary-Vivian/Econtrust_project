@@ -1,0 +1,538 @@
+body {
+    background-color: #026857;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #logobrand{
+    color: white;
+    padding-top: 10px;
+  }
+  
+  .Text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 5px;
+    padding-left: 0px;
+  
+  }
+  
+  #learnmore {
+    border-radius: 10px;
+    padding: 13px 10px;
+    background-color:white;
+    color: #026857;
+    border: none;
+    cursor: pointer;
+    margin-left: 40px;
+    font-size: medium;
+  
+   
+  }
+  
+  #icons {
+    width: 340px;
+    margin-left: 24px;
+    
+  }
+  
+  #logo {
+    width: 100px;
+    padding-bottom: 20px;
+    margin-left: 29px;
+  }
+  
+  #chama{
+  
+    width: 700px;
+    height: 500px;
+    margin-left: -6.9%;
+    margin-top: 10%;
+    border-radius: 20px;
+  
+  }
+  
+  #paragraph{
+    padding-bottom: 10px;
+    font-size: 64px;
+    padding-left: 40px;
+    font-weight: bolder;
+  }
+  .paragraph{
+    font-size: 32px;
+    padding-left: 40px;
+    font-weight: 400;
+  
+  }
+  
+  @media screen and (min-width: 320px) and (max-width: 390px) {
+ 
+    .Text {
+      flex-direction: column;
+      padding: 0.3rem;
+      font-size:30px;
+      /* padding: 9px; */
+      padding-right: 37px;
+      
+    }
+  
+    #chama {
+      object-fit: cover;
+      width: 102%;
+      margin: 5%;
+      height: 200px;
+      margin-left: 4.2%;
+  }
+    #paragraph{
+      font-size: 30px;
+      padding: 0 3px;
+      margin-bottom: 20px;
+      padding-left: 25px;
+    }
+    .paragraph{
+      font-size: 20px;
+      padding:0 2px;
+      margin-bottom: 20px;
+      padding-left: 25px;
+  
+    }
+  
+    #learnmore {
+      border-radius: 10px;
+      padding: 11px 11px;
+      margin-left: 35px;
+      font-size: small;
+  
+    }
+    .icons{
+      width: 100px;
+  
+    }
+    #icons{
+      width: 250px;
+      margin-left: 20%;
+    }
+    
+    #logo {
+      width: 95px;
+      margin-left: -2px;
+    }
+  }
+  
+  @media screen and (min-width: 391px) and (max-width: 399px) {
+  
+  
+    .Text {
+      flex-direction: column;
+      padding: 0.3rem;
+      font-size:30px;
+      /* padding: 9px; */
+      padding-right: 37px;
+      
+    }
+  
+    #chama {
+      object-fit: cover;
+      width: 103%;
+      margin: 5%;
+      height: 200px;
+      margin-left: 3%;
+  
+  
+      
+      
+  
+  
+    }
+    #paragraph{
+      font-size: 30px;
+      padding: 0 3px;
+      margin-bottom: 20px;
+      padding-left: 25px;
+    }
+    .paragraph{
+      font-size: 20px;
+      padding:0 2px;
+      margin-bottom: 20px;
+      padding-left: 25px;
+  
+    }
+  
+    #learnmore {
+      border-radius: 10px;
+      padding: 11px 11px;
+      margin-left: 39px;
+      font-size: small;
+  
+    }
+    .icons{
+      width: 100px;
+  
+    }
+    #icons{
+      width: 250px;
+      margin-left: 20%;
+    }
+    
+    #logo {
+      width: 95px;
+      margin-left: -6px;
+    }
+  }
+  
+  @media screen and (min-width: 400px) and (max-width: 480px) {
+    
+    .Text {
+      flex-direction: column;
+      padding: 0.9rem;
+      font-size:30px;
+    }
+  
+    #chama {
+      object-fit: cover;
+      width: 89%;
+      margin: 4%;
+      height: 250px;
+      margin-left: 20px;
+  
+  
+    }
+    #paragraph{
+      font-size: 35px;
+      padding: 0 3px;
+      padding-left: 20px;
+    }
+    .paragraph{
+      font-size: 19px;
+      padding:0  24px;
+    }
+  
+    #learnmore {
+      border-radius: 10px;
+      padding: 11px 11px;
+      margin-left: 35px;
+      font-size: small;
+  
+    }
+    .icons{
+      width: 100px;
+  
+    }
+    #icons{
+      width: 250px;
+      padding-right: 25%;
+    }
+    
+    #logo {
+      width: 100px;
+      margin-left: 2px;
+    }
+  }
+  
+  /* Small to medium screens (480px to 540px) */
+  @media screen and (min-width: 480px) and (max-width: 550px) {
+    
+    .Text {
+      flex-direction: column;
+      align-items: center;
+      padding: 0rem;
+    }
+  
+    #chama {
+      width: 100%;
+      margin-left:7%;
+      margin: 0%;
+      height: 300px;
+    }
+  
+    #learnmore {
+      margin-top: 1rem;
+      padding-top: 2%;
+      margin-left: 8%;
+    }
+    #paragraph{
+      padding-bottom: 0px;
+      font-size: 44px;
+      padding-left: 0px;
+      font-weight: bolder;
+      margin-left: 5%;
+     
+    }
+    .paragraph{
+      font-size: 24px;
+      padding-left: 0px;
+      font-weight: 400;
+      margin-left: 5%;
+    }
+    .icons{
+      margin-left: 0.7%;
+    }
+    #logo{
+      margin-right: 40px;
+    }
+  }
+  @media screen and (min-width:551px) and (max-width:770px) {
+   
+    .Text {
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem;
+    }
+  
+    #chama {
+      object-fit: cover;
+       margin:-18%;
+      width: 135%;
+      height: 320px;
+      margin-top: 0%;
+      
+    }
+  
+    #learnmore {
+      margin-top: 5rem;
+      margin-left: 7%;
+  
+      
+    }
+    #paragraph{
+      padding-bottom: -10px;
+      font-size: 48px;
+      padding-left: 0px;
+      font-weight: bolder;
+      margin-left: -9%;
+     
+    }
+    .paragraph{
+      font-size: 24px;
+      /* padding-left: 0px; */
+      margin-left: -16%;
+    }
+    .icons{
+      margin-left: 2%;
+    }
+   
+  }
+  @media screen and (min-width: 771px) and (max-width: 910px) {
+   
+    .Text {
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem;
+    }
+  
+    #chama {
+      object-fit: cover;
+       margin-left: 5%;
+      width: 90%;
+      
+    }
+  
+    #learnmore {
+      margin-top: 1rem;
+      margin-left: 9%;
+  
+      
+    }
+    #paragraph{
+      font-size: xxx-large;
+      margin-left: -3%;
+      margin-top: 1%;
+    }
+    .paragraph{
+      font-size: xx-large;
+      width: 80%;
+      margin-left: -3%;
+      margin-top: 4%;
+      margin-bottom: 5%;
+    }
+    .icons{
+      margin-left: 4%;
+    }
+    #logo{
+      padding-right: -30px;
+    }
+  }
+  @media screen and (min-width: 911px) and (max-width: 1000px) {
+    
+    .Text {
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem;
+    }
+  
+    #chama {
+      object-fit: cover;
+       margin-left: -2%;
+      width: 102%;
+      
+    }
+  
+    #learnmore {
+      margin-top: 1rem;
+      margin-left: 6.5%;
+  
+      
+    }
+    #paragraph{
+      font-size: xxx-large;
+      margin-left: -10%;
+      margin-top: 1%;
+    }
+    .paragraph{
+      font-size: xx-large;
+      width: 80%;
+      margin-left: -10%;
+      margin-top: 4%;
+      margin-bottom: 5%;
+    }
+    .icons{
+      margin-left: 2%;
+    }
+  }
+  
+  @media screen and (min-width: 1000px) and (max-width:1050px){
+    
+  
+    .Text {
+      display: flex;
+      
+    }
+    #paragraph{
+       font-size: xx-large;
+       margin-left: 1%; 
+       margin-top: 1%;
+      width: 100%; 
+    }
+    .paragraph{
+      font-size: x-large;
+      width: 100%;
+      margin-left: 1%;
+      margin-top: 4%;
+      margin-bottom: 5%;
+    }
+    #chama {
+      object-fit:cover;
+      height: 50%;
+      width: 90%;
+      margin-left: 1%;
+      margin-top: 0.5%;
+      
+    }
+    #learnmore {
+      font-size: 1.1rem;
+      margin-left: 5.0%;
+    }
+    .icons{
+      margin-left: 0.9%;
+    }
+    /* .Text {
+      flex-wrap: flex;
+      justify-content: space-around;
+      align-items: center;
+      color: white;
+      padding: 50px;
+    
+      
+    } */
+    
+  }
+  @media screen and (min-width: 1050px) and (max-width:1300px){
+    
+    .Text {
+      display: flex;
+  
+      
+    }
+    #paragraph{
+      font-size: xx-large;
+      margin-top: 1%;
+      margin-left:16px ;
+  
+      width: 100%;
+    }
+    .paragraph{
+      font-size: x-large;
+      width: 100%;
+      margin-left:16px ;
+      margin-top: 4%;
+      margin-bottom: 5%;
+    }
+    #chama {
+      object-fit:cover;
+      width: 85%;
+      height: 90%;
+      margin-left: 5%;
+      margin-top: 0.8%;
+      
+    }
+  
+    #learnmore {
+      font-size: 1.1rem;
+      margin-left: 4.4%;
+    }
+    .icons{
+      margin-left:1.2%;
+    }
+    #logo{
+      margin-right:0px;
+      margin-left: 20%;
+    }
+  
+  
+  }
+  @media screen and (min-width: 280px) and (max-width: 300px) {
+   
+  
+    .Text {
+      flex-direction: column;
+      align-items: center;
+      font-size: 5px;
+      padding: 10px;
+    }
+  
+    #chama {
+      /* object-fit: cover; */
+      margin-left: 2%;
+      /* padding-left: 30px; */
+      padding: 13px;
+      margin-top: 20%;
+      height: 21%;
+      width: 91%;
+      border-radius:29px ;
+  
+    
+  
+    }
+  
+    #learnmore {
+        margin-left: 10%;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        font-size: smaller;
+        border-radius: 8px;
+  
+    }
+    .icons{
+      width: 50%;
+      margin-left: -8%;
+    }
+    #icons{
+      width: 200px;
+      margin-left: 40px;
+    }
+    #paragraph{
+      font-size: 30px;
+      margin-left: -8%;
+    }
+    .paragraph{
+      font-size: 20px;
+      margin-left: -8%;
+      
+    }
+    
+  }
+  
+  
+  
